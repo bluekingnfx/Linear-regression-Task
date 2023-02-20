@@ -1,0 +1,73 @@
+
+            X:[Index(['Mileage', 'Doors'], dtype='object')]
+            Y:Price
+            Significant Features: ['Mileage']
+            Removed Column: ['Doors']
+            Skimmed:{'Doors': 1, 'Cruise': 0, 'Sound': 0, 'Leather': 0, 'Cylinder': 0, 'Liter': 0}
+            pValues:[0.0, 0.0]
+            R^2:0.04
+            Adj R^2:0.038
+        
+            X:['Mileage', 'Cruise']
+            Y:Price
+            Significant Features: ['Mileage']
+            Removed Column: ['Doors']
+            Skimmed:{'Doors': 1, 'Cruise': 0, 'Sound': 0, 'Leather': 0, 'Cylinder': 0, 'Liter': 0}
+            pValues:[0.0, 0.0]
+            R^2:0.209
+            Adj R^2:0.207
+        
+            X:['Mileage', 'Cruise', 'Sound']
+            Y:Price
+            Significant Features: ['Mileage', 'Cruise']
+            Removed Column: []
+            Skimmed:{'Doors': 1, 'Sound': 0, 'Leather': 0, 'Cylinder': 0, 'Liter': 0}
+            pValues:[0.0, 0.0, 0.005]
+            R^2:0.217
+            Adj R^2:0.214
+        
+            X:['Mileage', 'Cruise', 'Sound', 'Leather']
+            Y:Price
+            Significant Features: ['Mileage', 'Cruise', 'Sound']
+            Removed Column: []
+            Skimmed:{'Doors': 1, 'Leather': 0, 'Cylinder': 0, 'Liter': 0}
+            pValues:[0.0, 0.0, 0.0, 0.0]
+            R^2:0.259
+            Adj R^2:0.256
+        
+            X:['Mileage', 'Cruise', 'Sound', 'Leather', 'Cylinder']
+            Y:Price
+            Significant Features: ['Mileage', 'Cruise', 'Sound', 'Leather']
+            Removed Column: []
+            Skimmed:{'Doors': 1, 'Cylinder': 0, 'Liter': 0}
+            pValues:[0.0, 0.0, 0.001, 0.0, 0.0]
+            R^2:0.43
+            Adj R^2:0.426
+        
+            X:['Mileage', 'Cruise', 'Sound', 'Leather', 'Cylinder', 'Liter']
+            Y:Price
+            Significant Features: ['Mileage', 'Cruise', 'Sound', 'Leather', 'Cylinder']
+            Removed Column: []
+            Skimmed:{'Doors': 1, 'Liter': 0}
+            pValues:[0.0, 0.0, 0.001, 0.0, 0.0, 0.678]
+            R^2:0.43
+            Adj R^2:0.426
+        
+            X:['Mileage', 'Cruise', 'Sound', 'Leather', 'Cylinder', 'Doors']
+            Y:Price
+            Significant Features: ['Mileage', 'Cruise', 'Sound', 'Leather', 'Cylinder']
+            Removed Column: ['Liter']
+            Skimmed:{'Doors': 1, 'Liter': 1}
+            pValues:[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+            R^2:0.446
+            Adj R^2:0.442
+        
+            X:['Mileage', 'Cruise', 'Sound', 'Leather', 'Cylinder', 'Doors', 'Liter']
+            Y:Price
+            Significant Features: ['Mileage', 'Cruise', 'Sound', 'Leather', 'Cylinder', 'Doors']
+            Removed Column: []
+            Skimmed:{'Liter': 1}
+            pValues:[0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.364]
+            R^2:0.446
+            Adj R^2:0.441
+        

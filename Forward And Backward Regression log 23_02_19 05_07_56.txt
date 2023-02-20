@@ -1,0 +1,64 @@
+
+            X:[Index(['Sex', 'Rank'], dtype='object')]
+            Y:Salary
+            Significant Features: ['Rank']
+            Removed Column: ['Sex']
+            Skimmed:{'Sex': 1, 'Year': 0, 'Degree': 0, 'YSdeg': 0}
+            pValues:[0.445, 0.0]
+            R^2:0.755
+            Adj R^2:0.746
+        
+            X:['Rank', 'Year']
+            Y:Salary
+            Significant Features: ['Rank']
+            Removed Column: ['Sex']
+            Skimmed:{'Sex': 1, 'Year': 0, 'Degree': 0, 'YSdeg': 0}
+            pValues:[0.0, 0.0]
+            R^2:0.844
+            Adj R^2:0.837
+        
+            X:['Rank', 'Year', 'Degree']
+            Y:Salary
+            Significant Features: ['Rank', 'Year']
+            Removed Column: []
+            Skimmed:{'Sex': 1, 'Degree': 0, 'YSdeg': 0}
+            pValues:[0.0, 0.0, 0.868]
+            R^2:0.844
+            Adj R^2:0.834
+        
+            X:['Rank', 'Year', 'YSdeg']
+            Y:Salary
+            Significant Features: ['Rank', 'Year']
+            Removed Column: ['Degree']
+            Skimmed:{'Sex': 1, 'Degree': 1, 'YSdeg': 0}
+            pValues:[0.0, 0.0, 0.431]
+            R^2:0.846
+            Adj R^2:0.836
+        
+            X:['Rank', 'Year', 'Sex']
+            Y:Salary
+            Significant Features: ['Rank', 'Year']
+            Removed Column: ['YSdeg']
+            Skimmed:{'Sex': 1, 'Degree': 1, 'YSdeg': 1}
+            pValues:[0.0, 0.0, 0.46]
+            R^2:0.845
+            Adj R^2:0.836
+        
+            X:['Rank', 'Year', 'Degree']
+            Y:Salary
+            Significant Features: ['Rank', 'Year']
+            Removed Column: ['Sex']
+            Skimmed:{'Sex': 2, 'Degree': 1, 'YSdeg': 1}
+            pValues:[0.0, 0.0, 0.868]
+            R^2:0.844
+            Adj R^2:0.834
+        
+            X:['Rank', 'Year', 'YSdeg']
+            Y:Salary
+            Significant Features: ['Rank', 'Year']
+            Removed Column: ['Degree']
+            Skimmed:{'Sex': 2, 'Degree': 2, 'YSdeg': 1}
+            pValues:[0.0, 0.0, 0.431]
+            R^2:0.846
+            Adj R^2:0.836
+        
